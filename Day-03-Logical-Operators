@@ -1,1 +1,28 @@
+# Day 3 – Logical Operators
 
+## Topic
+Behavioral Modeling
+
+## Description
+Implemented Logical Operators in Verilog using Behavioral Modeling and verified the functionality through simulation using a custom testbench in QuestaSim.
+
+## Logical Operators Covered
+- Logical AND (&&)
+- Logical OR (||)
+- Logical NOT (!)
+
+## Key Learning
+Understood how logical operators evaluate expressions as TRUE or FALSE and how they behave when operands contain unknown (`X`) values.
+
+## Tools Used
+- GVim
+- QuestaSim
+
+## Files Included
+- logical.v
+- logical_tb.v
+- run.do
+- waveform.png
+
+## Status
+✅ Completed
