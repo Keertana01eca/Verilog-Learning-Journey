@@ -21,22 +21,7 @@ Bitwise operators perform operations on each individual bit of the operands. The
 
 ## 💻 Example
 
-### Inputs
 
-```
-A = 4'b1010
-B = 4'b1100
-```
-
-### Results
-
-```
-A & B  = 1000
-A | B  = 1110
-A ^ B  = 0110
-A ^~ B = 1001
-~A     = 0101
-```
 
 ---
 
