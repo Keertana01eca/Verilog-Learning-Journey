@@ -23,10 +23,10 @@ My goal is to build strong RTL Design fundamentals and continue progressing towa
 | Day 1 | Arithmetic Operators | ✅ Completed |
 | Day 2 | Relational Operators | ✅ Completed |
 | Day 3 | Logical Operators | ✅ Completed |
-| Day 4 | Bitwise Operators | ⏳ In Progress |
-| Day 5 | Shift Operators | ⏳ Planned |
-| Day 6 | Reduction Operators | ⏳ Planned |
-| Day 7 | Conditional Operator | ⏳ Planned |
+| Day 4 | Bitwise Operators | ✅ Completed|
+| Day 5 | Shift Operators | ✅ Completed |
+| Day 6 | Reduction Operators | ✅ Completed |
+| Day 7 | Conditional Operator | ✅ Completed |
 | Day 8 | Half Adder | ⏳ Planned |
 | Day 9 | Full Adder | ⏳ Planned |
 | Day 10 | Half Subtractor | ⏳ Planned |
