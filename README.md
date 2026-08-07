@@ -26,8 +26,8 @@ My goal is to build strong RTL Design fundamentals and continue progressing towa
 | Day 4 | Bitwise Operators | ✅ Completed|
 | Day 5 | Shift Operators | ✅ Completed |
 | Day 6 | Reduction Operators | ✅ Completed |
-| Day 7 | Half Adder | ⏳ Planned |
-| Day 8 | Full Adder | ⏳ Planned |
+| Day 7 | Half Adder | ✅ Completed |
+| Day 8 | Full Adder | ✅ Completed |
 | Day 9 | Half Subtractor | ⏳ Planned |
 | Day 10 | Full Subtractor | ⏳ Planned |
 | Day 11 | Multiplexers | ⏳ Planned |
