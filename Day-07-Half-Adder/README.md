@@ -1,4 +1,4 @@
-# Day-05: Half Adder in Verilog HDL
+# Day-07: Half Adder in Verilog HDL
 
 ## 📖 Overview
 
