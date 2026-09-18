@@ -1,0 +1,88 @@
+# Day 47 – JK Master-Slave Flip-Flop
+
+## 📌 Overview
+
+As part of my **100 Days Verilog Challenge**, Day 47 focuses on designing and verifying a **JK Master-Slave Flip-Flop** using Verilog HDL.
+
+## 🎯 Objective
+
+* Understand the Master-Slave concept.
+* Implement a JK Master-Slave Flip-Flop using Verilog.
+* Understand clock-phase-based data transfer.
+* Study the Toggle operation.
+* Verify the design using simulation and waveform analysis.
+
+## 🔹 JK Master-Slave Flip-Flop
+
+A JK Master-Slave Flip-Flop consists of two stages:
+
+* **Master**
+* **Slave**
+
+The two stages operate during opposite clock phases.
+
+The Master captures the input during one clock phase, while the Slave transfers the stored value to the output during the opposite phase.
+
+This arrangement helps prevent unwanted repeated toggling during a clock cycle.
+
+## 📊 Truth Table
+
+| J | K | Q(next) | Operation |
+| - | - | ------- | --------- |
+| 0 | 0 | Q       | Hold      |
+| 0 | 1 | 0       | Reset     |
+| 1 | 0 | 1       | Set       |
+| 1 | 1 | ~Q      | Toggle    |
+
+## 🔹 Master-Slave Operation
+
+### Master Stage
+
+The Master responds during one phase of the clock and captures the J and K inputs.
+
+### Slave Stage
+
+The Slave responds during the opposite clock phase and transfers the Master's stored state to the output.
+
+Therefore, the final output changes in a controlled manner rather than repeatedly toggling during the same clock level.
+
+## 💡 Key Advantage
+
+The Master-Slave configuration helps avoid the **race-around condition** that can occur in a level-triggered JK Flip-Flop when:
+
+```text id="i9e2so"
+J = 1
+K = 1
+```
+
+## 🛠️ Concepts Used
+
+* Verilog HDL
+* Sequential Logic
+* JK Flip-Flop
+* Master-Slave Configuration
+* Clock Phases
+* Toggle Operation
+* Race-Around Condition
+* Non-Blocking Assignment
+* Testbench
+* Waveform Verification
+
+## 🔍 Verification
+
+The JK Master-Slave Flip-Flop was verified using a Verilog testbench by applying different combinations of J and K inputs and observing the output during clock transitions.
+
+The waveform verifies:
+
+* Hold operation
+* Reset operation
+* Set operation
+* Toggle operation
+* Master-Slave clock-phase behavior
+
+
+## 🚀 Challenge Progress
+
+**100 Days Verilog Challenge – Day 47**
+
+Continuing to strengthen my understanding of **sequential logic, flip-flops, clocking concepts, and Verilog HDL** through hands-on implementation and waveform verification.
