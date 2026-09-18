@@ -1,4 +1,4 @@
-# Day 24 – 1×8 DEMUX Using 1×4 DEMUX
+# Day-24 – 1×8 DEMUX Using 1×4 DEMUX
 
 ## 📌 Objective
 
